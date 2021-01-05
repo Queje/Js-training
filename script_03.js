@@ -6210,7 +6210,7 @@ let avg = (sum / usersrevenue.length) || 0;
 
 console.log(`The total sum is: ${sum / 100} €. The average revenue by user is: ${avg / 100} €.`);
 
-// Quel est le pourcentage d'utilisateurs ayant rapporté de l'argent (revenue supérieur à 0) ?
+// Quel est le pourcentage d'utilisateurs ayant rapporté de l'argent (revenu supérieur à 0) ?
 let usersfilteredbyrevenue = users.filter(element => element.revenue > 0);
 console.log(`les users ayant un revenue supérieur à 0 sont ${usersfilteredbyrevenue.length}`);
 console.log(`pour un total de ${users.length}`);
