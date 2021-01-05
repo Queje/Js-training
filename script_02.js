@@ -38,8 +38,8 @@ console.log(books.find(element => element.rented == Math.max(...getrented(books)
 console.log(books.find(element => element.rented == Math.min(...getrented(books))));
 
 //Supprime le livre avec l'ID 133712
-var bookstodelete = books.find(element => element.id == 133712);
-var booksindextodelete = books.findIndex(element => element.id == 133712);
+let bookstodelete = books.find(element => element.id == 133712);
+let booksindextodelete = books.findIndex(element => element.id == 133712);
 console.log("le livre a supprimer est: ")
 console.log(bookstodelete);
 console.log("son index est: ")
